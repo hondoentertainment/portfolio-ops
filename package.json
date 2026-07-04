@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-ops",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "ingest": "node scripts/ingest-phase1.mjs",
+    "dev": "npx serve public -p 5190",
+    "start": "npm run ingest && npm run dev"
+  }
+}
