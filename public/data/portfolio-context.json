@@ -1,0 +1,1061 @@
+{
+  "version": 1,
+  "phase": 1,
+  "generatedAt": "2026-07-05T02:34:26.611Z",
+  "sources": {
+    "ciStatus": "local",
+    "deployRegistry": "https://raw.githubusercontent.com/hondoentertainment/central-command/master/data/projects.js",
+    "lifeos": null
+  },
+  "summary": {
+    "ciIssueCount": 4,
+    "deployProjectCount": 22,
+    "openEvents": 71
+  },
+  "morningBrief": {
+    "generatedAt": "2026-07-05T02:34:26.611Z",
+    "sections": {
+      "engineering": [
+        "2026GoalTracker: completed",
+        "ai-life: completed",
+        "AIKnowledgeBase: completed",
+        "autoresearch: unknown",
+        "balanced-life-os: completed"
+      ],
+      "life": [
+        "LifeOS API not configured — set LIFEOS_API_URL for Phase 2"
+      ],
+      "business": [
+        "CrowdPass / pulse KPIs — Phase 2 instrumentation pending"
+      ]
+    },
+    "topActions": [
+      {
+        "title": "2026GoalTracker: completed",
+        "severity": "medium",
+        "domain": "ci-health"
+      },
+      {
+        "title": "ai-life: completed",
+        "severity": "medium",
+        "domain": "ci-health"
+      },
+      {
+        "title": "AIKnowledgeBase: completed",
+        "severity": "medium",
+        "domain": "ci-health"
+      },
+      {
+        "title": "autoresearch: unknown",
+        "severity": "medium",
+        "domain": "ci-health"
+      },
+      {
+        "title": "balanced-life-os: completed",
+        "severity": "medium",
+        "domain": "ci-health"
+      }
+    ]
+  },
+  "events": [
+    {
+      "id": "evt_ci_2026GoalTracker",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "2026GoalTracker: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/2026GoalTracker"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/2026GoalTracker/actions/runs/25895078770"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_ai-life",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "ai-life: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/ai-life"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/ai-life/actions/runs/23947789534"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_AIKnowledgeBase",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "AIKnowledgeBase: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/AIKnowledgeBase"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/AIKnowledgeBase/actions/runs/28399031608"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_autoresearch",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "autoresearch: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/autoresearch"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_balanced-life-os",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "balanced-life-os: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/balanced-life-os"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/balanced-life-os/actions/runs/25895079402"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_budget-grocery-list",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "budget-grocery-list: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/budget-grocery-list"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/budget-grocery-list/actions/runs/25895078703"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_canadian-ice-breaker",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "canadian-ice-breaker: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/canadian-ice-breaker"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_canadian-tuxedo-party",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "canadian-tuxedo-party: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/canadian-tuxedo-party"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_central-command",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "central-command: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/central-command"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/central-command/actions/runs/27593487512"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_Chromacloset",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "Chromacloset: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/Chromacloset"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/Chromacloset/actions/runs/24893815366"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_church-merge-",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "church-merge-: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/church-merge-"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_ComedyCountry",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "ComedyCountry: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/ComedyCountry"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/ComedyCountry/actions/runs/26477943782"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_competition",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "competition: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/competition"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_cowboy-disco-party",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "cowboy-disco-party: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/cowboy-disco-party"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_creative-hub",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "creative-hub: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/creative-hub"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/creative-hub/actions/runs/26456638632"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_CrowdPass",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "CrowdPass: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/CrowdPass"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/CrowdPass/actions/runs/27856601805"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_daily-ten",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "daily-ten: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/daily-ten"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/daily-ten/actions/runs/27709043007"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_day2-big-dance",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "day2-big-dance: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/day2-big-dance"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/day2-big-dance/actions/runs/27525970792"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_deep-seats",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "deep-seats: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/deep-seats"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_deep-seats1",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "deep-seats1: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/deep-seats1"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_ethanol-free-gas",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "ethanol-free-gas: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/ethanol-free-gas"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/ethanol-free-gas/actions/runs/28398574270"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_fargo-flooring-2",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "fargo-flooring-2: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/fargo-flooring-2"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/fargo-flooring-2/actions/runs/27729280802"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_fuzzy-octo-broccoli",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "fuzzy-octo-broccoli: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/fuzzy-octo-broccoli"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_giant-schrodinger",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "giant-schrodinger: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/giant-schrodinger"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/giant-schrodinger/actions/runs/28306027383"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_github-digest-agent-v2",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "github-digest-agent-v2: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/github-digest-agent-v2"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/github-digest-agent-v2/actions/runs/28381873023"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_GolfChallenge",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "GolfChallenge: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/GolfChallenge"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/GolfChallenge/actions/runs/27478081067"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_high-school-sports-master-db",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "high-school-sports-master-db: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/high-school-sports-master-db"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/high-school-sports-master-db/actions/runs/23242343549"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_hockey26",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "hockey26: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/hockey26"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/hockey26/actions/runs/28399191123"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_HockeyPlayoffs26",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "HockeyPlayoffs26: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/HockeyPlayoffs26"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_hondoentertainment",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "hondoentertainment: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/hondoentertainment"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/hondoentertainment/actions/runs/25951811741"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_hoops-intel",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "hoops-intel: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/hoops-intel"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/hoops-intel/actions/runs/28401187240"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_i-am-drunk",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "i-am-drunk: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/i-am-drunk"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/i-am-drunk/actions/runs/28399901373"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_LateNightVibesSeattle",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "LateNightVibesSeattle: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/LateNightVibesSeattle"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/LateNightVibesSeattle/actions/runs/23790461393"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_little-red-hen",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "little-red-hen: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/little-red-hen"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/little-red-hen/actions/runs/26454269215"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_minor-league-performers-tracker",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "minor-league-performers-tracker: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/minor-league-performers-tracker"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/minor-league-performers-tracker/actions/runs/28399916465"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_MN-Fun-Squad-Hall-of-Fame",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "MN-Fun-Squad-Hall-of-Fame: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/MN-Fun-Squad-Hall-of-Fame"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/MN-Fun-Squad-Hall-of-Fame/actions/runs/22094328382"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_ModernSportsIntelligenceDemo",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "ModernSportsIntelligenceDemo: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/ModernSportsIntelligenceDemo"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/ModernSportsIntelligenceDemo/actions/runs/28396085557"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_monthly-bible-study",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "monthly-bible-study: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/monthly-bible-study"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/monthly-bible-study/actions/runs/25328027554"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_name-that-canadian",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "name-that-canadian: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/name-that-canadian"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_nanoclaw",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "nanoclaw: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/nanoclaw"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_openclaw",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "openclaw: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/openclaw"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_party-commander",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "party-commander: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/party-commander"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/party-commander/actions/runs/26456640670"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_party-planner",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "party-planner: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/party-planner"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/party-planner/actions/runs/28361844141"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_pickin-potluck",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "pickin-potluck: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/pickin-potluck"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_pitchprops",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "pitchprops: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/pitchprops"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/pitchprops/actions/runs/28398507100"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_pov-analyzer",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "pov-analyzer: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/pov-analyzer"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/pov-analyzer/actions/runs/27124046994"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_pulse",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "pulse: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/pulse"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/pulse/actions/runs/27593211008"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_QQQQ",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "QQQQ: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/QQQQ"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/QQQQ/actions/runs/28400906370"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_retail-roadshow-scraper",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "retail-roadshow-scraper: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/retail-roadshow-scraper"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_SchaferFamilyCookbook",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "SchaferFamilyCookbook: in_progress",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/SchaferFamilyCookbook"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/SchaferFamilyCookbook/actions/runs/28399114500"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_scottsdale-trip",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "scottsdale-trip: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/scottsdale-trip"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_Seattle-Social-Demo",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "Seattle-Social-Demo: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/Seattle-Social-Demo"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/Seattle-Social-Demo/actions/runs/28399117682"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_SeattleSocial",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "SeattleSocial: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/SeattleSocial"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_seinfeld-trivia",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "seinfeld-trivia: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/seinfeld-trivia"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/seinfeld-trivia/actions/runs/26475700264"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_SiskelBot",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "SiskelBot: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/SiskelBot"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/SiskelBot/actions/runs/28400812065"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_social-circles",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "social-circles: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/social-circles"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/social-circles/actions/runs/28352411902"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_spine-scanner",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "spine-scanner: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/spine-scanner"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/spine-scanner/actions/runs/28365881552"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_st-paul-mobsters",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "st-paul-mobsters: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/st-paul-mobsters"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/st-paul-mobsters/actions/runs/27507845552"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_stagecraft",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "stagecraft: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/stagecraft"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/stagecraft/actions/runs/27729305594"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_Star-Wars-App-workspace",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "Star-Wars-App-workspace: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/Star-Wars-App-workspace"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_star-wars-card-tracker",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "star-wars-card-tracker: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/star-wars-card-tracker"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/star-wars-card-tracker/actions/runs/26614935127"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_StarWarsApp",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "StarWarsApp: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/StarWarsApp"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/StarWarsApp/actions/runs/27339533585"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_StepSprint",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "StepSprint: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/StepSprint"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/StepSprint/actions/runs/27856140513"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_timberwolves-history",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "timberwolves-history: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/timberwolves-history"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/timberwolves-history/actions/runs/24960567873"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_timing-optimization",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "timing-optimization: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/timing-optimization"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_v0-games-library",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "v0-games-library: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/v0-games-library"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/v0-games-library/actions/runs/28399898384"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_v0-venn-with-friends",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "v0-venn-with-friends: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/v0-venn-with-friends"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_VennWithFriendsDemo",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "VennWithFriendsDemo: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/VennWithFriendsDemo"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_Wanderlog",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "Wanderlog: completed",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/Wanderlog"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/Wanderlog/actions/runs/27851235902"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_ci_world-sports",
+      "source": "central-command",
+      "domain": "ci-health",
+      "severity": "medium",
+      "title": "world-sports: unknown",
+      "entity": {
+        "type": "repo",
+        "id": "hondoentertainment/world-sports"
+      },
+      "generatedAt": "2026-06-29T13:46:21.344Z"
+    },
+    {
+      "id": "evt_deploy_star-wars",
+      "source": "central-command",
+      "domain": "deploy-release",
+      "severity": "medium",
+      "title": "Star Wars App has no production URL",
+      "entity": {
+        "type": "app",
+        "id": "star-wars"
+      },
+      "links": {
+        "github": "https://github.com/hondoentertainment/Star-Wars-App-workspace"
+      },
+      "generatedAt": "2026-07-05T02:34:26.601Z"
+    }
+  ]
+}

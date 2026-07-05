@@ -2,27 +2,31 @@
 
 Central agent context hub — ingests signals from Central Command and produces a unified morning brief + action queue.
 
-## Phase 1 (implemented)
+**Production:** [portfolio-ops.vercel.app](https://portfolio-ops.vercel.app) *(after deploy)*  
+**Repository:** [github.com/hondoentertainment/portfolio-ops](https://github.com/hondoentertainment/portfolio-ops)
+
+## Quick start
 
 ```bash
-npm run ingest   # reads Central Command ci-status.json + projects.js
-npm run dev      # serves dashboard at http://localhost:5190
+npm run ingest   # CI snapshot + deploy registry → public/data/portfolio-context.json
+npm run dev      # dashboard at http://localhost:5190
 ```
 
-Requires `Central Command` as a sibling folder on Desktop (default paths in `scripts/ingest-phase1.mjs`).
+Remote ingestion uses GitHub raw URLs from `central-command` when local files are unavailable (Vercel build, GitHub Actions).
 
-## Outputs
+## Phase status
 
-| File | Purpose |
-|------|---------|
-| `data/portfolio-context.json` | Normalized events + morning brief for agent consumption |
-| `SYSTEM-ARCHITECTURE.md` | Systems map, operational fronts, report catalog |
+| Phase | Status |
+|-------|--------|
+| **1** — CI + deploy registry | ✅ Implemented |
+| **2** — LifeOS API merge | 🔌 Set `LIFEOS_API_URL` (+ optional `LIFEOS_API_TOKEN`) |
+| **3** — Event bus (Digest, Slack) | Planned |
+| **4** — Task routing (SiskelBot, Cursor) | Planned |
+| **5** — Closed-loop verification | Planned |
 
-## Roadmap
+## Automation
 
-- **Phase 2** — LifeOS reports API merge
-- **Phase 3** — Normalized event bus (Digest Agent, Slack)
-- **Phase 4** — Task routing to SiskelBot / Cursor
-- **Phase 5** — Closed-loop verification
+- **GitHub Action** — daily ingest at 12:00 UTC, commits refreshed `portfolio-context.json`
+- **Vercel** — builds run ingest before deploy
 
 See `SYSTEM-ARCHITECTURE.md` for full architecture.
