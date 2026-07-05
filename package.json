@@ -5,7 +5,6 @@
   "type": "module",
   "scripts": {
     "ingest": "node scripts/ingest-phase1.mjs",
-    "build": "node scripts/ingest-phase1.mjs",
     "dev": "npx serve public -p 5190",
     "start": "npm run ingest && npm run dev"
   }

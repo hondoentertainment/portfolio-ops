@@ -1,4 +1,3 @@
 {
-  "buildCommand": "node scripts/ingest-phase1.mjs",
   "outputDirectory": "public"
 }

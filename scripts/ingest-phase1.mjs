@@ -11,12 +11,14 @@ import { fileURLToPath } from 'node:url'
 const __dir = dirname(fileURLToPath(import.meta.url))
 const root = join(__dir, '..')
 const desktop = join(root, '..')
-const CC = join(desktop, 'Central Command')
+const ccRoot = process.env.CENTRAL_COMMAND_PATH ?? join(desktop, 'Central Command')
 const outPath = join(root, 'public', 'data', 'portfolio-context.json')
 
 const DEFAULT_CI_URL =
+  process.env.CC_CI_URL ??
   'https://raw.githubusercontent.com/hondoentertainment/central-command/master/data/ci-status.json'
 const DEFAULT_PROJECTS_URL =
+  process.env.CC_PROJECTS_URL ??
   'https://raw.githubusercontent.com/hondoentertainment/central-command/master/data/projects.js'
 
 async function loadText(sourcePath, urlEnv, defaultUrl) {
@@ -25,19 +27,24 @@ async function loadText(sourcePath, urlEnv, defaultUrl) {
   }
   const url = process.env[urlEnv] ?? defaultUrl
   if (!url) return null
-  const res = await fetch(url)
-  if (!res.ok) throw new Error(`Failed to fetch ${url}: ${res.status}`)
-  return res.text()
+  try {
+    const res = await fetch(url)
+    if (!res.ok) throw new Error(`${res.status}`)
+    return res.text()
+  } catch (err) {
+    console.warn(`Could not fetch ${urlEnv ?? 'remote'}: ${err.message}`)
+    return null
+  }
 }
 
 async function loadCi() {
-  const local = join(CC, 'data', 'ci-status.json')
+  const local = join(ccRoot, 'data', 'ci-status.json')
   const text = await loadText(local, 'CC_CI_URL', DEFAULT_CI_URL)
   return text ? JSON.parse(text) : null
 }
 
 async function loadDeployProjects() {
-  const local = join(CC, 'data', 'projects.js')
+  const local = join(ccRoot, 'data', 'projects.js')
   const raw = await loadText(local, 'CC_PROJECTS_URL', DEFAULT_PROJECTS_URL)
   if (!raw) return []
   const match = raw.match(/export const DEPLOY_PROJECTS = (\[[\s\S]*?\]);/)
@@ -167,7 +174,7 @@ const context = {
   phase: life.connected ? 2 : 1,
   generatedAt: new Date().toISOString(),
   sources: {
-    ciStatus: process.env.CC_CI_URL ?? (existsSync(join(CC, 'data', 'ci-status.json')) ? 'local' : DEFAULT_CI_URL),
+    ciStatus: process.env.CC_CI_URL ?? (existsSync(join(ccRoot, 'data', 'ci-status.json')) ? 'local' : DEFAULT_CI_URL),
     deployRegistry: process.env.CC_PROJECTS_URL ?? DEFAULT_PROJECTS_URL,
     lifeos: life.connected ? process.env.LIFEOS_API_URL : null,
   },
