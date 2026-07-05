@@ -2,7 +2,7 @@
 
 Central agent context hub — ingests signals from Central Command and produces a unified morning brief + action queue.
 
-**Production:** [portfolio-ops.vercel.app](https://portfolio-ops.vercel.app) *(after deploy)*  
+**Production:** [portfolio-ops-seven.vercel.app](https://portfolio-ops-seven.vercel.app)  
 **Repository:** [github.com/hondoentertainment/portfolio-ops](https://github.com/hondoentertainment/portfolio-ops)
 
 ## Quick start
