@@ -1,7 +1,7 @@
 {
   "version": 1,
   "phase": 1,
-  "generatedAt": "2026-07-22T12:37:03.717Z",
+  "generatedAt": "2026-07-23T12:37:05.120Z",
   "sources": {
     "ciStatus": "local",
     "deployRegistry": "https://raw.githubusercontent.com/hondoentertainment/central-command/master/data/projects.js",
@@ -13,7 +13,7 @@
     "openEvents": 71
   },
   "morningBrief": {
-    "generatedAt": "2026-07-22T12:37:03.717Z",
+    "generatedAt": "2026-07-23T12:37:05.120Z",
     "sections": {
       "engineering": [
         "2026GoalTracker: completed",
@@ -1055,7 +1055,7 @@
       "links": {
         "github": "https://github.com/hondoentertainment/Star-Wars-App-workspace"
       },
-      "generatedAt": "2026-07-22T12:37:03.717Z"
+      "generatedAt": "2026-07-23T12:37:05.120Z"
     }
   ]
 }
